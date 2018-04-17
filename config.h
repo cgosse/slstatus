@@ -57,6 +57,7 @@ static const struct arg args[] = {
 	{ cpu_perc, "CPU %2s%% ", NULL    },
 	{ cpu_iowait, "IO %2s%% ", NULL    },
 	{ ram_perc, "RAM %2s%% ", NULL    },
-	{ disk_perc, "HD %2s%%  ", "/"    },
+	{ disk_perc, "HD %2s%%  ", "/" },
+	{ battery_perc, "BAT %2s%%  ", "BAT0" },
 	{ datetime, "%s ", "%F %T" },
 };
